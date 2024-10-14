@@ -3,6 +3,7 @@ def main():
   gpa = 3.75
   name = "Luna"
   is_passed = True
+  # List of strings called subjects
   subjects = [
       "AP Calculus", "Rhetoric and Media",
       "Post-AP Computer Science"
@@ -38,7 +39,7 @@ def main():
   grades.append('B')
   print(f"{name}'s updated subjects and grades: {list(zip(subjects, grades))}")
 
-
 # Explain this below???
 if __name__ == "__main__":
   main()
+
